@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,52 +11,51 @@
     <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="~/css/CustomStyles.css" rel="stylesheet" />
 </head>
+
+
+@*ctrl + k + f indentation vs code*@
+
 <body>
 
     @* <div class="container">
-    <div class="row">
+        <div class="row">
         <div class="col-md-3 col-lg-9 col-sm-6">
-            <div class="customDiv">Column 1</div>
+        <div class="customDiv">Column 1</div>
         </div>
         <div class="col-md-3 col-lg-3 col-sm-6">
-            <div class="customDiv">Column 2</div>
+        <div class="customDiv">Column 2</div>
         </div>
         <div class="col-md-3 col-lg-9 col-sm-6">
-            <div class="customDiv">Column 3</div>
+        <div class="customDiv">Column 3</div>
         </div>
         <div class="col-md-3 col-lg-3 col-sm-6">
-            <div class="customDiv">Column 4</div>
+        <div class="customDiv">Column 4</div>
         </div>
-    </div>
-</div> *@
+        </div>
+        </div> *@
 
 
-@* Offsetting the Grid Columns *@
+    @* Offsetting the Grid Columns *@
+
 
     <div class="container">
-    <div class="row">
-        <div class="col-md-3">
-            <div class="customDiv">Column 1</div>
+        <div class="row">
+            <img src="~/Images/ggg.jpg" class="col-md-4 offset-md-4" alt="Responsive image"  class="rounded float-left" />
+
         </div>
-        <div class="col-md-3 col-md-offset-6">
-            <div class="customDiv">Column 2</div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-3">
-            <div class="customDiv">Column 1</div>
-        </div>
-        <div class="col-md-3">
-            <div class="customDiv">Column 2</div>
-        </div>
-        <div class="col-md-3">
-            <div class="customDiv">Column 3</div>
-        </div>
-        <div class="col-md-3">
-            <div class="customDiv">Column 4</div>
+        <br />
+        <div class="row">
+            <div class="col-md-4">
+                <div class="customDiv">Column 1</div>
+            </div>
+            <div class="col-md-4">
+                <div class="customDiv">Column 2</div>
+            </div>
+            <div class="col-md-4">
+                <div class="customDiv">Column 3</div>
+            </div>
         </div>
     </div>
-</div>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
