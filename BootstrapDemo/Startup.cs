@@ -28,7 +28,8 @@ namespace BootstrapDemo
             }
 
             app.UseRouting();
-
+            app.UseStaticFiles();
+            //app.UseMvcWithDefaultRoute();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
