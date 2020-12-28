@@ -12,20 +12,50 @@
 </head>
 <body>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-2">
-                <div class="customDiv">LEFT SIDE BAR</div>
-            </div>
-            <div class="col-md-8">
-                <div class="customDiv">MAIN CONTENT AREA</div>
-            </div>
-            <div class="col-md-2">
-                <div class="customDiv">RIGHT SIDEed BAR</div>
-            </div>
+    @* <div class="container">
+    <div class="row">
+        <div class="col-md-3 col-lg-9 col-sm-6">
+            <div class="customDiv">Column 1</div>
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-6">
+            <div class="customDiv">Column 2</div>
+        </div>
+        <div class="col-md-3 col-lg-9 col-sm-6">
+            <div class="customDiv">Column 3</div>
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-6">
+            <div class="customDiv">Column 4</div>
         </div>
     </div>
+</div> *@
 
+
+@* Offsetting the Grid Columns *@
+
+    <div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="customDiv">Column 1</div>
+        </div>
+        <div class="col-md-3 col-md-offset-6">
+            <div class="customDiv">Column 2</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="customDiv">Column 1</div>
+        </div>
+        <div class="col-md-3">
+            <div class="customDiv">Column 2</div>
+        </div>
+        <div class="col-md-3">
+            <div class="customDiv">Column 3</div>
+        </div>
+        <div class="col-md-3">
+            <div class="customDiv">Column 4</div>
+        </div>
+    </div>
+</div>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
