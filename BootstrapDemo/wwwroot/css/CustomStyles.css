@@ -1,7 +1,11 @@
 ﻿.customDiv {
     margin-bottom: 3px;
     min-height: 300px;
-    background-color: silver;
+    background-color: rgb(38, 128, 231);
     text-align: center;
     font-size: large
+}
+
+hr{
+    border: 1px solid red;
 }

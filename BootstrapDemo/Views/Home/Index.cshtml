@@ -40,7 +40,8 @@
 
     <div class="container">
         <div class="row">
-            <img src="~/Images/ggg.jpg" class="col-md-4 offset-md-4" alt="Responsive image"  class="rounded float-left" />
+            <img src="~/Images/ggg.jpg" class="col-md-4 offset-md-4" alt="Responsive image"
+                class="rounded float-left" />
 
         </div>
         <br />
@@ -57,6 +58,78 @@
         </div>
     </div>
 
+    <hr />
+
+    <div class="container">
+        <div class="row">
+            <dl class="row">
+                <dt class="col-sm-3">Description lists</dt>
+                <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
+
+                <dt class="col-sm-3">Euismod</dt>
+                <dd class="col-sm-9">
+                    <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
+                    <p>Donec id elit non mi porta gravida at eget metus.</p>
+                </dd>
+
+                <dt class="col-sm-3">Malesuada porta</dt>
+                <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+
+                <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+                <dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+                    fermentum massa justo sit amet risus.</dd>
+
+                <dt class="col-sm-3">Nesting</dt>
+                <dd class="col-sm-9">
+                    <dl class="row">
+                        <dt class="col-sm-4">Nested definition list</dt>
+                        <dd class="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.</dd>
+                    </dl>
+                </dd>
+            </dl>
+        </div>
+        <hr />
+        <p class="text-left">Left aligned text.</p>
+        <p class="text-center">Center aligned text.</p>
+        <p class="text-right">Right aligned text.</p>
+        <p class="text-justify">
+            The text in this paragraph will be justified.
+            Bootstrap is a free, open-source and is the most popular HTML,
+            CSS, and JavaScript framework.
+        </p>
+        <p class="text-nowrap">
+            This text will not wrap and you will get a horizontal scrollbar
+            if there is no space on the screen to view.
+        </p>
+    </div>
+
+
+    <div class="row">
+        <div class="col-4">
+            <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+                    href="#list-home" role="tab" aria-controls="home">Home</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+                    href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+                <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+                    href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                    href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+            </div>
+        </div>
+        <div class="col-8">
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                    ...</div>
+                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...
+                </div>
+                <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...
+                </div>
+                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>

@@ -12,5 +12,11 @@ namespace BootstrapDemo.controller
         {
             return View();
         }
+
+        public IActionResult List()
+        {
+            Console.WriteLine("hiiiiiiiiiiiii");
+            return View();
+        }
     }
 }

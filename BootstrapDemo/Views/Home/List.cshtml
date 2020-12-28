@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  @* The viewport meta tag ensure proper rendering and touch zooming on a mobile device.*@
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Example</title>
+
+  <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="~/css/CustomStyles.css" rel="stylesheet" />
+</head>
+
+
+@*ctrl + k + f indentation vs code*@
+
+<body>
+
+  <div class="container">
+
+    <ul class="list-group">
+      <li class="list-group-item">India</li>
+      <li class="list-group-item">USA</li>
+      <li class="list-group-item">UK</li>
+    </ul>
+
+    <hr />
+
+    <ul class="list-group">
+      <li class="list-group-item">India</li>
+      <li class="list-group-item">USA</li>
+      <li class="list-group-item">UK</li>
+      <li class="list-group-item">
+        Australia
+        <span class="badge">New</span>
+      </li>
+    </ul>
+    <hr />
+
+    <div class="list-group">
+      <a href="http://dell.com" class="list-group-item">Dell</a>
+      <a href="http://google.com" class="list-group-item">Google</a>
+
+
+      <a href="http://microsoft.com" class="list-group-item">Microsoft</a>
+    </div>
+    <hr />
+
+    <ul class="list-group">
+      <li class="list-group-item disabled">Disabled Item</li>
+      <li class="list-group-item active">Active Item</li>
+      <li class="list-group-item">Other Item 1</li>
+      <li class="list-group-item">Other Item 2</li>
+    </ul>
+
+    <hr />
+    <div class="list-group">
+      <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">List Group Item 1 Heading</h4>
+        <p class="list-group-item-text">List Group Item 1 Text</p>
+      </a>
+      <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">List Group Item 2 Heading</h4>
+        <p class="list-group-item-text">List Group Item 2 Text</p>
+      </a>
+      <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">List Group Item 3 Heading</h4>
+        <p class="list-group-item-text">List Group Item 3 Text</p>
+      </a>
+    </div>
+
+  </div>
+
+  <hr />
+
+  <script src="~/lib/jquery/dist/jquery.min.js"></script>
+  <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
